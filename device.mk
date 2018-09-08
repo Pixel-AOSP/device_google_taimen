@@ -134,3 +134,5 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.early_phase_offset_ns=5000000
 
+PRODUCT_COPY_FILES += \
+    branding/bootanimation.zip:system/media/bootanimation.zip
